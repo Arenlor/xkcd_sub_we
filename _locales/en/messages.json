@@ -1,0 +1,18 @@
+{
+	"extensionName": {
+		"message": "XKCD Substitutions",
+		"description": "Name of the extension."
+	},
+	"extensionDescription": {
+		"message": "Uses the various substitutions that XKCD has suggested to make things more fun.",
+		"description": "Description of the extension. Add your name as translator here."
+	},
+	"enabledTitle": {
+		"message": "Substitutions active",
+		"description": "Notice that substitutions are currently active."
+	},
+	"disabledTitle": {
+		"message": "Substitutions inactive",
+		"description": "Notice that substitutions are not currently active."
+	}
+}
