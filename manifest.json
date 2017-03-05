@@ -12,6 +12,10 @@
 		{
 			"matches": ["*://*.cnn.com/*", "*://*.msnbc.com/*"],
 			"js": ["newsSubstitute.js"]
+		},
+		{
+			"matches": ["<all_urls>"],
+			"js": ["favSubstitute.js"]
 		}
 	],
 	"default_locale": "en",
