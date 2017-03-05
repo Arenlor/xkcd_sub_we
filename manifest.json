@@ -1,0 +1,27 @@
+{
+	"browser_action": {
+		"browser_style": true,
+		"default_icon": {
+			"16": "icons/sub_16.png",
+			"32": "icons/sub_32.png",
+			"64": "icons/sub_64.png"
+		},
+		"default_title": "__MSG_enabledTitle__"
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://*.cnn.com/*", "*://*.msnbc.com/*"],
+			"js": ["newsSubstitute.js"]
+		}
+	],
+	"default_locale": "en",
+	"description": "__MSG_extensionDescription__",
+	"icons": {
+		"48": "icon48.png",
+		"96": "icon96.png"
+	},
+	"manifest_version": 2,
+	"name": "__MSG_extensionName__",
+	"version": "0.0.0.1",
+	"author": "Arenlor (Jerod Lycett)",
+	"homepage_url": "https://github.com/Arenlor/xkcd_sub_we"
